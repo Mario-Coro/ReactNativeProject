@@ -1,0 +1,81 @@
+[
+    {
+      "id":1,
+      "title":"Ojitos Lindos",
+      "coverImg":"https://i.scdn.co/image/ab67616d0000b27349d694203245f241a1bcaa72",
+      "artist":"Bad Bunny",
+      "duration":"3:23"
+  },
+  
+  {
+    "id":2,
+    "title":"As it was",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b273b46f74097655d7f353caab14",
+    "artist":"Harry Styles",
+    "duration":"2:46"
+  },
+
+  {
+    "id":3,
+    "title":"After hours",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36",
+    "artist":"The Weekend",
+    "duration":"6:01"
+  },
+
+  {
+    "id":4,
+    "title":"Perfect",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96",
+    "artist":"Ed Sheeran",
+    "duration":"4:23"
+  },
+
+  {
+    "id":5,
+    "title":"Viva la Vida",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b273e21cc1db05580b6f2d2a3b6e",
+    "artist":"Coldplay",
+    "duration":"4:03"
+  },
+
+  {
+    "id":6,
+    "title":"Anti-Hero",
+    "coverImg":"https://i.scdn.co/image/ab67616d00001e02bb54dde68cd23e2a268ae0f5",
+    "artist":"Taylor Swift",
+    "duration":"3:24"
+  },
+
+  {
+    "id":7,
+    "title":"Ferxxo 100",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b27337ba1ee95caed30372ea483a",
+    "artist":"Feid",
+    "duration":"2:48"
+  },
+
+  {
+    "id":8,
+    "title":"RockStar 2.0",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b27305f22a3797d9b3cf34e6497c",
+    "artist":"Duki, Jhayco",
+    "duration":"2:54"
+  },
+  
+  {
+    "id":9,
+    "title":"Whatever It Takes",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b2735675e83f707f1d7271e5cf8a",
+    "artist":"Imagine Dragons",
+    "duration":"3:20"
+  },
+
+  {
+    "id":10,
+    "title":"SICKO MODE",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b273072e9faef2ef7b6db63834a3",
+    "artist":"Travis Scoot, Drake",
+    "duration":"5:15"
+  }
+  ]

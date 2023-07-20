@@ -1,4 +1,5 @@
 import { StyleSheet, StatusBar } from "react-native";
+import { FONTS } from "../../themes/Fonts";
 export const styles = StyleSheet.create({
   container: {
     margin:10,
@@ -6,7 +7,8 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontSize: 30,
-    color: '#FFFFFF'
+    color: '#FFFFFF',
+    fontFamily:FONTS.regular
   },
   listContainer:{
     margin:20,

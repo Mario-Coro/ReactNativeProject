@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import { FONTS } from "../../themes/Fonts";
 
 export const styles = StyleSheet.create({
   songContainer: {
@@ -11,6 +12,7 @@ export const styles = StyleSheet.create({
   songTitle: {
     color: "#FFFFFF",
     fontSize: 17,
+    fontFamily:FONTS.ultra
   },
   songArtist: {
     color: "#B3B3B3",

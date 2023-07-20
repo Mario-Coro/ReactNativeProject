@@ -1,0 +1,91 @@
+[
+    {
+      "id":1,
+      "title":"Ojitos Lindos",
+      "coverImg":"https://i.scdn.co/image/ab67616d0000b27349d694203245f241a1bcaa72",
+      "artist":"Bad Bunny",
+      "duration":"3:23",
+      "album":"Un Verano sin ti"
+  },
+  
+  {
+    "id":2,
+    "title":"As it was",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b273b46f74097655d7f353caab14",
+    "artist":"Harry Styles",
+    "duration":"2:46",
+    "album":"Harry's House"
+  },
+
+  {
+    "id":3,
+    "title":"After hours",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36",
+    "artist":"The Weekend",
+    "duration":"6:01",
+    "album":"After Hours"
+  },
+
+  {
+    "id":4,
+    "title":"Andrea",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b27349d694203245f241a1bcaa72",
+    "artist":"Bad Bunny",
+    "duration":"4:23",
+    "album":"Un Verano sin ti"
+  },
+
+  {
+    "id":5,
+    "title":"HeartLess",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36",
+    "artist":"The Weekend",
+    "duration":"4:03",
+    "album":"After Hours"
+  },
+
+  {
+    "id":6,
+    "title":"Little Freak",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b273b46f74097655d7f353caab14",
+    "artist":"Harry Styles",
+    "duration":"3:24",
+    "album":"Harry's House"
+  },
+
+  {
+    "id":7,
+    "title":"Me porto Bonito",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b27349d694203245f241a1bcaa72",
+    "artist":"Bad Bunny",
+    "duration":"2:48",
+    "album":"Un Verano sin ti"
+  },
+
+  {
+    "id":8,
+    "title":"RockStar 2.0",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b27305f22a3797d9b3cf34e6497c",
+    "artist":"Duki, Jhayco",
+    "duration":"2:54",
+    "album":"Antes de Ameri"
+  },
+  
+  {
+    "id":9,
+    "title":"CSIpher",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b27305f22a3797d9b3cf34e6497c",
+    "artist":"Duki",
+    "duration":"3:20",
+    "album":"Antes de Ameri"
+  },
+
+  {
+    "id":10,
+    "title":"Dont Lie",
+    "coverImg":"https://i.scdn.co/image/ab67616d0000b27305f22a3797d9b3cf34e6497c",
+    "artist":"Duki",
+    "duration":"5:15",
+    "album":"Antes de Ameri"
+  }
+  ]

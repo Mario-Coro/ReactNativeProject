@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "albumName":"Antes de Ameri",
+        "artistName":"Duki",
+        "albumImage":"https://i.scdn.co/image/ab67616d0000b27305f22a3797d9b3cf34e6497c"
+    },
+    {
+        "id":2,
+        "albumName":"Un Verano sin ti",
+        "artistName":"Bad Bunny",
+        "albumImage":"https://i.scdn.co/image/ab67616d0000b27349d694203245f241a1bcaa72"
+    },
+    {
+        "id":3,
+        "albumName":"After Hours",
+        "artistName":"The Weekend",
+        "albumImage":"https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36"
+    },
+    {
+        "id":4,
+        "albumName":"Harry's House",
+        "artistName":"Harry Styles",
+        "albumImage":"https://i.scdn.co/image/ab67616d0000b273b46f74097655d7f353caab14"
+    }
+]

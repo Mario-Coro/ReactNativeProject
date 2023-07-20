@@ -1,26 +1,27 @@
-import { View, FlatList, Text, SafeAreaView } from "react-native";
-import SONGS from './data/song.json'
+import { View } from "react-native";
 import { styles } from "./styles";
-import { Item } from './components'
+import { AlbumPlaylist, SongTracklist } from "./screens";
 import { useState } from "react";
 
 export default function App() {
-  const [tracklist, setTracklist] = useState(SONGS)
+  const [isAlbumSelected, setIsAlbumSelected] = useState(false) 
+  const [selectedAlbum, setSelectedAlbum] = useState('')
+  
+  const onHandleSelectAlbum =(album)=>{
+    setSelectedAlbum(album)
+    setIsAlbumSelected(true)
+  } 
 
-  const deleteSong =(id)=>{
-    setTracklist((prevTracklist)=>prevTracklist.filter((track)=> track.id !== id))
-  }
+  const onHandleGoBack=()=>{
+    setIsAlbumSelected(!selectedAlbum)
+    setSelectedAlbum('')
+  }  
 
   return (
-      <View style={styles.container}>
-        <Text style={styles.title}>Búsquedas Recientes</Text>
-        <FlatList
-        data={tracklist}
-        contentContainerStyle={styles.songList}
-        renderItem={({ item }) => <Item song={item} onHandlerDelete={deleteSong} />}
-        keyExtractor={(item)=> item.id}
-        />
-      </View>
+  <View style={styles.container}>
+    { isAlbumSelected ? (<SongTracklist album={selectedAlbum} onHandleGoBack={onHandleGoBack}/>) :(<AlbumPlaylist onHandleSelectAlbum={onHandleSelectAlbum}/>)  }
+  </View>
   );
 }
+
 

@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
   songTitle: {
     color: "#FFFFFF",
     fontSize: 17,
-    fontFamily:FONTS.ultra
+    fontFamily: FONTS.ultra,
   },
   songArtist: {
     color: "#B3B3B3",
@@ -35,5 +35,5 @@ export const styles = StyleSheet.create({
   },
   duration: {
     color: "#B3B3B3",
-  }
+  },
 });

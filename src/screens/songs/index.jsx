@@ -3,9 +3,11 @@ import SONGS from "../../constants/song.json";
 import { Item } from "../../components";
 import { styles } from "./style";
 import { useState } from "react";
+import { useSelector } from "react-redux";
 
 export default SongsTracklist = ({ navigation, route }) => {
-  const [tracklist, setTracklist] = useState(SONGS);
+  const playlist = useSelector((state)=> state.playlist.data)
+  const [tracklist, setTracklist] = useState(playlist);
   const { albumTitle } = route.params;
   const filterList = tracklist.filter((song) => song.album === albumTitle);
 

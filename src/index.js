@@ -2,6 +2,8 @@ import { View, ActivityIndicator } from "react-native";
 import { useFonts } from "expo-font";
 import { FONTS } from "./themes/Fonts";
 import RootNavigator from "./navigations";
+import { Provider } from "react-redux";
+import { tracklist } from "./Tracklist";
 
 export default function App() {
   const [loaded] = useFonts({
@@ -17,6 +19,9 @@ export default function App() {
     );
   }
 
-  return <RootNavigator />;
+  return( 
+    <Provider store={tracklist}>
+       <RootNavigator />
+    </Provider>)
 }
 

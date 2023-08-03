@@ -1,10 +1,10 @@
 import { NavigationContainer } from "@react-navigation/native";
-import MusicPlayerNavigator from './musicPlayer'
+import TabsNavigator from './tabs'
 
 export default RootNavigator =()=>{
     return(
         <NavigationContainer>
-            <MusicPlayerNavigator/>
+            <TabsNavigator/>
         </NavigationContainer>
     )
     

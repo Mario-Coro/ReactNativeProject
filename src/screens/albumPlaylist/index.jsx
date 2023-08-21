@@ -1,20 +1,18 @@
 import { View, FlatList, Text } from "react-native";
-import ALBUMS from "../../constants/categories.json";
 import { AlbumItem } from "../../components";
-import { useState } from "react";
 import { styles } from "./styles";
+import { useGetAlbumsQuery } from "../../store/albums/api";
 
-export default AlbumPlaylist = ({ navigation }) => {
-  const [albumList, setAlbumList] = useState(ALBUMS);
+export default AlbumPlaylist = ({navigation, route}) => {
+  const {data, error, isLoading} = useGetAlbumsQuery();
   const onSelectAlbum = (albumTitle) => {
     navigation.navigate("Tracklist", { albumTitle });
   };
-
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Trending Albums</Text>
       <FlatList
-        data={albumList}
+        data={data}
         contentContainerStyle={styles.listContainer}
         renderItem={({ item }) => (
           <AlbumItem onHandleSelectAlbum={() => onSelectAlbum(item.albumName)} album={item} />

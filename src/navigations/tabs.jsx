@@ -1,7 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import MusicPlayerNavigator from './musicPlayer'
-import FavoritesNavigator from './favorites'
+import ProfileNavigator from './profile'
 
 const BottomTab = createBottomTabNavigator()
 
@@ -13,9 +13,9 @@ export default TabsNavigator =()=>{
             tabBarInactiveTintColor:'lightgray'
             }}>
             <BottomTab.Screen name="MusicTab" component={MusicPlayerNavigator} options={{
-                tabBarLabel: 'Playlists', tabBarIcon:({focused, color, size})=>{ <Ionicons name={ focused ? 'musical-notes' : 'musical-notes-outline'} size={24} color="black" />}
+                tabBarLabel: 'Playlists', tabBarIcon:({focused})=>{ <Ionicons name={ focused ? 'musical-notes' : 'musical-notes-outline'}/>}
             }}/>
-            <BottomTab.Screen name="FavoriteTab" component={FavoritesNavigator}/>
+            <BottomTab.Screen name="ProfileTab" component={ProfileNavigator}/>
         </BottomTab.Navigator>
     )
 }

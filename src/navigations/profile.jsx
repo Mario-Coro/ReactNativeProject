@@ -1,11 +1,11 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { Favorites } from "../screens";
+import { Profile } from "../screens";
 const Stack = createNativeStackNavigator()
 
-export default FavoritesNavigator =()=>{
+export default ProfileNavigator =()=>{
     return(
         <Stack.Navigator>
-            <Stack.Screen name="Favorites" component={Favorites}/>
+            <Stack.Screen name="Profile" component={Profile}/>
         </Stack.Navigator>
     )
 }

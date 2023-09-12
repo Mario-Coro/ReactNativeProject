@@ -19,9 +19,10 @@ export default function App() {
     );
   }
 
-  return( 
+  return (
     <Provider store={store}>
-       <RootNavigator />
-    </Provider>)
+      <RootNavigator />
+    </Provider>
+  );
 }
 

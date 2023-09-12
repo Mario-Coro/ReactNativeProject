@@ -1,12 +1,11 @@
 import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   artistContainer: {
-    flex: 1,
     flexDirection: "column",
   },
   imgContainer: {
-    width: 140,
-    height: 140,
+    width: 220,
+    height: 220,
   },
   image: {
     width: "100%",

@@ -1,13 +1,10 @@
 import { Ionicons } from "@expo/vector-icons";
-import {
-  requestMediaLibraryPermissionsAsync,
-  launchImageLibraryAsync,
-} from "expo-image-picker";
+import { requestMediaLibraryPermissionsAsync, launchImageLibraryAsync } from "expo-image-picker";
 import { useState } from "react";
 import { TouchableOpacity, View, Text, Image, Alert } from "react-native";
 import { styles } from "./style";
 
-export const ImageSelector = ({onSelect}) => {
+export const ImageSelector = ({ onSelect }) => {
   const [image, setImage] = useState(null);
   const verifyPermissions = async () => {
     const { status } = await requestMediaLibraryPermissionsAsync();

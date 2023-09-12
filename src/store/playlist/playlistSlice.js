@@ -1,13 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
-import Songs from '../../constants/song.json'
+import Songs from "../../constants/song.json";
 const initialState = {
-    data: Songs
-}
+  data: Songs,
+};
 
 const playlistSlices = createSlice({
-    name:'Playlist',
-    initialState,
-    reducers:{}
-})
+  name: "Playlist",
+  initialState,
+  reducers: {},
+});
 
-export default playlistSlices.reducer
+export default playlistSlices.reducer;

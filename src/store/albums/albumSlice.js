@@ -1,13 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
-import ALBUMS from '../../constants/categories.json'
+import ALBUMS from "../../constants/categories.json";
 const initialState = {
-    data: ALBUMS
-}
+  data: ALBUMS,
+};
 
 const albumSlices = createSlice({
-    name:'Albums',
-    initialState,
-    reducers:{}
-})
+  name: "Albums",
+  initialState,
+  reducers: {},
+});
 
-export default albumSlices.reducer
+export default albumSlices.reducer;
